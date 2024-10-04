@@ -1,0 +1,106 @@
+:root {
+    --backgroundColour: #1A1A1A;
+    --mainColour: #45A29E;
+    --dark-text: #1A1A1A;
+    --text-color-light: #888;
+}
+/* Add new album */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+    max-width: 400px;
+    background: transparent;
+    border: 2px solid var(--mainColour);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    color: var(--text-color-light);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea,
+button,
+input[type="submit"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 2px solid var(--mainColour);
+    background-color: var(--backgroundColour);
+    color: var(--mainColour);
+    outline: none;
+}
+
+input[type="file"] {
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    background-color: var(--mainColour);
+    color: var(--backgroundColour);
+}
+
+input[type="submit"],
+button {
+    right: 5px;
+    background-color: var(--mainColour);
+    color: var(--backgroundColour);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    color: var(--mainColour);
+    background-color: lighten(var(--mainColour), 10%); 
+}
+
+h2, h3 {
+    color: var(--mainColour);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: var(--mainColour);
+}
+
+#songs_container {
+    background: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.song-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--mainColour);
+    padding-bottom: 10px;
+}
+
+.song-item h4 {
+    color: var(--mainColour);
+    margin: 10px 0;
+}
+
+.success-message {
+    color: var(--mainColour);
+    text-align: center;
+    font-size: 1.5em; 
+
+}
+
+.error-message {
+    color: red; 
+    text-align: center;
+    font-size: 1.5em;
+}

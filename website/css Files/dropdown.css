@@ -1,0 +1,59 @@
+:root {
+    --backgroundColour: #1A1A1A;
+    --mainColour: #45A29E;
+    --dark-text: #1A1A1A;
+    --text-color-light: #888; 
+}
+/* Header Burger Menu*/
+.dropdown {
+    position: relative; 
+    display: inline-block;
+}
+
+.dropbtn {
+    
+    background-color: var(--backgroundColour);
+    color: var(--mainColour); 
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0; 
+    background-color: var(--backgroundColour); 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropbtn,
+.dropdown-content:hover .dropbtn {
+    color: var(--mainColour); 
+    background-color: #333; 
+}
+
+.dropdown-content a {
+    color: var(--text-color-light); 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--mainColour); 
+    color: var(--backgroundColour); 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn ion-icon {
+    font-size: 2em; 
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css Files/dropdown.css"> 
+    <link rel="stylesheet" href="css Files/Main.css"> 
+    <link rel="stylesheet" href="css Files/Nav.css">
+    <link rel="stylesheet" href="css Files/profile.css">         
+    <link rel="stylesheet" href="css Files/dynamicsize.css">
+    <link rel="icon" type="image/png" href="Images/SongShackIcon.png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="hideData.js"></script>
+    <style>
+        #ts-cs {
+    flex: 1;
+    margin: 10px; 
+    text-align: left; 
+    background-color: var(--backgroundColour); 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border: 1px solid var(--mainColour); 
+    border-radius: 5px; 
+    max-width: 800px;
+}
+    </style>
+    <title>Profile Page</title>
+
+</head>
+<body>
+    <header>
+        <a href="index.php">
+            <img src="Images/SongShack.png" alt="Logo" id="logo">
+        </a>  
+        <a href="whistle.html">.</a>
+        <span id="usernameDisplay"></span>
+
+        <div class="dropdown">
+        <button class="dropbtn"><ion-icon name="reorder-two-outline" id="menuIcon"></ion-icon></ion-icon></button>
+
+            <div class="dropdown-content">
+                <a href="index.php">Home Page</a>
+                <a href="ranking.php">Ranking Page</a>
+                <a href="newAlbum.php" id="addAlbums">Add a new Album</a>
+                <a href="login.php" id="loginLink">Login</a>
+            	<a href="profile.php" id="profileLink">Profile Page</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    </br></br></br></br></br></br>
+        <section id='ts-cs'>
+            <h1>SongShack Website Terms and Conditions:</h1>
+            <h3>
+                </br>Welcome to SongShack! By accessing or using our website and services, you agree to abide by the following terms and conditions. Please read over them carefully. If you do not agree to these Terms, you are not permitted to use our website.
+                </br></br><h2>1. Service Provider</h2></br>
+                    These Terms constitute a legally binding agreement between you and SongShack.
+
+                </br></br><h2>2. Age and Eligibility Requirements</h2></br>
+                    To access and use the Service, you must:
+                    </br>
+                    - Be at least 18 years old or meet the minimum age requirement in your jurisdiction.
+                    - Have the legal capacity to enter into a contract with us and not be prohibited by any laws.
+                    - Reside in a country where the Service is available.
+
+                </br></br><h2>3. Your Use of the SongShack Service</h2></br>
+                    You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. You agree to use our Service solely for lawful purposes and in a manner that does not infringe upon the rights of, restrict, or hinder anyone else's use and enjoyment of the Service.
+
+                </br></br><h2>4. Content and Intellectual Property Rights</h2></br>
+                    All content provided on the Service, including text, graphics, and audio content, is either owned by or licensed to us.
+
+                </br></br><h2>5. Your Content</h2></br>
+                    You have the option to publish or upload your content on the Service. While you retain all rights to your content, you provide SongShack with a non-exclusive, royalty-free license to utilize, reproduce, and exhibit your content in connection with the Service.
+                    
+                </br></br><h2>6. User Conduct</h2></br>
+                    You commit to not disrupt or attempt to disrupt the operation of the Service in any manner. SongShack reserves the right to limit or terminate your access to the Service if you violate any of these Terms.
+                
+                </br></br><h2>7. Disclaimers and Limitation of Liability</h2></br>
+                    The Service is offered on an "as is" and "as available" basis. SongShack explicitly disclaims all types of warranties, whether express or implied. SongShack will not be responsible for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the Service.
+                
+                </br></br><h2>8. Changes to the Terms</h2></br>
+                    SongShack has the authority to adjust these Terms at any time at its discretion. By continuing to access or use the Service after these revisions take effect, you consent to be bound by the updated Terms.
+
+                </br></br><h2>9. Governing Law</h2></br>
+                    These Terms will be governed by and interpreted in accordance with the laws of [Jurisdiction], without applying any principles of conflicts of law.
+                    
+                </br></br><h2>10. Contact Us</h2></br>
+                    For any inquiries regarding these Terms, please reach out to us at <u>help@songshack.com</u>.
+            </h3>
+        </section>
+    </br></br></br></br></br>
+    </main>
+
+    <footer>
+        <p>&copy; Ewan MacKerracher : 2024 SongShack</p>
+    </footer>
+
+</body>
+
+</html>

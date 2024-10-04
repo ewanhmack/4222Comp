@@ -1,0 +1,143 @@
+:root {
+    --backgroundColour: #1A1A1A;
+    --mainColour: #45A29E;
+    --dark-text: #1A1A1A;
+    --text-color-light: #888; 
+}
+
+/* Ranking Albums Styles */
+html {
+    font-size: 90%; 
+}
+.albumCard {
+    flex: 1 0 30%; 
+    text-align: center;
+    background-color: var(--backgroundColour);
+    padding: 15px;
+    margin-bottom: 20px; 
+    border: 1px solid var(--mainColour);
+    border-radius: 5px;
+}
+
+.albumCard img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.albumCard h3 {
+    color: var(--mainColour);
+    margin-top: 10px;
+}
+
+.albumCard p {
+    color: #888;
+}
+
+.albumCard a {
+    color: var(--mainColour);
+    text-decoration: underline;
+}
+
+#featuredAlbums {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+
+#featuredAlbums {
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+
+.album-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; 
+}
+
+.albumCard:not(:nth-child(3n)):not(:last-of-type) {
+    flex: 1;
+    margin-right: 20px; 
+    padding-bottom: 20px; 
+}
+
+.songsTable {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    background-color: var(--backgroundColour);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--mainColour); 
+    border-radius: 5px;
+
+}
+
+/* Album Details Styles */
+.albumDetails {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    background-color: var(--backgroundColour);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--mainColour); 
+    border-radius: 5px;
+}
+
+.albumDetails img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.albumDetails h3 {
+    color: var(--mainColour);
+    margin-top: 10px;
+}
+
+.albumDetails p
+{
+    color: var(--text-color-light);
+}
+
+.albumDetails a {
+    color: var(--mainColour);
+    text-decoration: underline;
+}
+
+/* Album Songs Styles */
+.albumSongs {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    background-color: var(--backgroundColour);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--mainColour); 
+    border-radius: 5px;
+}
+
+.albumSongs img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.albumSongs h3 {
+    color: var(--mainColour);
+    margin-top: 10px;
+}
+
+.albumSongs p {
+    color: var(--text-color-light);
+}
+
+.albumSongs a {
+    color: var(--mainColour);
+    text-decoration: underline;
+}

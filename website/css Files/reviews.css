@@ -1,0 +1,107 @@
+:root {
+    --backgroundColour: #1A1A1A;
+    --mainColour: #45A29E;
+    --dark-text: #1A1A1A;
+    --text-color-light: #888;
+}
+
+/* Review System*/
+#reviewsSection {
+    margin-top: 20px;
+}
+.reviews {
+    flex: 1;
+    text-align: center;
+    background-color: var(--backgroundColour);
+    padding: 25px;
+    margin-bottom: 20px; 
+    border: 1px solid var(--mainColour);
+    border-radius: 5px;
+}
+.review {
+    margin-bottom: 20px; 
+    padding: 10px;
+    border-bottom: 1px solid var(--mainColour); 
+    
+    text-align: left;
+    background-color: --backgroundColour; 
+    border-radius: 5px; 
+}
+
+.review-username {
+    text-decoration: underline; 
+    
+    font-weight: bold; 
+}
+
+.reviews input[type="number"],
+.reviews textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid var(--mainColour); 
+    background-color: var(--backgroundColour); 
+    color: var(--text-color-light); 
+    border-radius: 4px;
+}
+
+.reviews button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--mainColour); 
+    color: var(--backgroundColour); 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+.reviews button[type="submit"]:hover {
+    background-color: darken(var(--mainColour), 10%); 
+    color:var(--mainColour);
+    
+}
+
+.review-date {
+    font-size: 0.7rem; 
+    color: grey; 
+}
+
+
+
+/* Star rating system*/
+.star-rating {
+    direction: rtl; 
+    font-size: 0; 
+}
+
+.star-rating .star {
+    display: none; 
+}
+
+.star-rating label {
+    font-size: 30px; 
+    color: #ccc; 
+    cursor: pointer;
+}
+
+.star-rating label:before {
+    content: "\2605"; 
+    position: relative;
+    font-family: Arial, sans-serif; 
+}
+
+.star-rating input:checked ~ label {
+    color: var(--mainColour); 
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: var(--mainColour); 
+}
+
+.review-stars {
+    font-size: 1.5rem;
+    color: var(--mainColour);
+}

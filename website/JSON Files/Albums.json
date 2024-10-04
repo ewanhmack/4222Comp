@@ -1,0 +1,437 @@
+[
+    {
+        "id": 1,
+        "Cover Photo": "Images\/Thriller-Michael-Jackson.png",
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "genre": "Pop, post-disco, funk, rock",
+        "songs": [
+            {
+                "track": 1,
+                "title": "Wanna Be Startin' Somethin'",
+                "runtime": "6:04"
+            },
+            {
+                "track": 2,
+                "title": "Baby Be Mine",
+                "runtime": "4:22"
+            },
+            {
+                "track": 3,
+                "title": "The Girl Is Mine",
+                "runtime": "3:43"
+            },
+            {
+                "track": 4,
+                "title": "Thriller",
+                "runtime": "5:57"
+            },
+            {
+                "track": 5,
+                "title": "Beat It",
+                "runtime": "4:17"
+            },
+            {
+                "track": 6,
+                "title": "Billie Jean",
+                "runtime": "4:55"
+            },
+            {
+                "track": 7,
+                "title": "Human Nature",
+                "runtime": "4:07"
+            },
+            {
+                "track": 8,
+                "title": "P.Y.T. (Pretty Young Thing)",
+                "runtime": "4:00"
+            },
+            {
+                "track": 9,
+                "title": "The Lady in My Life",
+                "runtime": "5:01"
+            }
+        ],
+        "totalTime": "42:19",
+        "releaseYear": 1982,
+        "producer": "Quincy Jones",
+        "recommendationScore": 9.8,
+        "recommendationDescription": "Michael Jackson's Thriller has become the best-selling album of all time, mixing pop and post-disco with groundbreaking production and iconic music videos.",
+        "albumLocation": "Albums.php?key=1"
+    },
+    {
+        "id": 2,
+        "Cover Photo": "Images\/GNR-Appetite-For-Destruction.jpg",
+        "title": "Appetite for Destruction",
+        "artist": "Guns N' Roses",
+        "genre": "Hard rock, heavy metal",
+        "songs": [
+            {
+                "track": 1,
+                "title": "Welcome to the Jungle",
+                "runtime": "4:39"
+            },
+            {
+                "track": 2,
+                "title": "It's So Easy",
+                "runtime": "3:22"
+            },
+            {
+                "track": 3,
+                "title": "Nightrain",
+                "runtime": "4:26"
+            },
+            {
+                "track": 4,
+                "title": "Out ta Get Me",
+                "runtime": "4:20"
+            },
+            {
+                "track": 5,
+                "title": "Mr. Brownstone",
+                "runtime": "3:45"
+            },
+            {
+                "track": 6,
+                "title": "Paradise City",
+                "runtime": "6:48"
+            },
+            {
+                "track": 7,
+                "title": "My Michelle",
+                "runtime": "3:38"
+            },
+            {
+                "track": 8,
+                "title": "Think About You",
+                "runtime": "3:50"
+            },
+            {
+                "track": 9,
+                "title": "Sweet Child o' Mine",
+                "runtime": "5:54"
+            },
+            {
+                "track": 10,
+                "title": "You're Crazy",
+                "runtime": "3:15"
+            },
+            {
+                "track": 11,
+                "title": "Anything Goes",
+                "runtime": "3:25"
+            },
+            {
+                "track": 12,
+                "title": "Rocket Queen",
+                "runtime": "6:13"
+            }
+        ],
+        "totalTime": "53:46",
+        "releaseYear": 1987,
+        "producer": "Mike Clink",
+        "recommendationScore": 9.2,
+        "recommendationDescription": "Guns N' Roses' debut album, 'Appetite for Destruction,' is a landmark in rock music, featuring relentless energy, raw power, and timeless tracks.",
+        "albumLocation": "Albums.php?key=2"
+    },
+    {
+        "id": 3,
+        "Cover Photo": "Images\/Lovejoy-Wake-Up-And-Its-Over.png",
+        "title": "Wake Up & Its Over",
+        "artist": "Lovejoy",
+        "genre": "Indie Rock",
+        "songs": [
+            {
+                "track": 1,
+                "title": "Portrait of a Blank State",
+                "runtime": "4:00"
+            },
+            {
+                "track": 2,
+                "title": "Call Me What You Like",
+                "runtime": "3:58"
+            },
+            {
+                "track": 3,
+                "title": "Consequences",
+                "runtime": "3:07"
+            },
+            {
+                "track": 4,
+                "title": "Warsaw",
+                "runtime": "3:28"
+            },
+            {
+                "track": 5,
+                "title": "Scum",
+                "runtime": "3:49"
+            },
+            {
+                "track": 6,
+                "title": "It's Golden Hour Somewhere",
+                "runtime": "3:26"
+            }
+        ],
+        "totalTime": "21:29",
+        "releaseYear": 2023,
+        "producer": "Lovejoy, Mark Crew, Dan Priddy",
+        "recommendationScore": 9.2,
+        "recommendationDescription": "Lovejoy's 'Wake Up & Its Over' is a captivating track that delivers a blend of infectious melodies and introspective lyrics, showcasing the band's musical prowess and leaving a lasting impression.",
+        "albumLocation": "Albums.php?key=3"
+    },
+    {
+        "id": 4,
+        "Cover Photo": "Images\/Nirvana-Nevermind.png",
+        "title": "Nevermind",
+        "artist": "Nirvana",
+        "genre": "Grunge, Alternative Rock",
+        "songs": [
+            {
+                "track": 1,
+                "title": "Smells Like Teen Spirit",
+                "runtime": "5:01"
+            },
+            {
+                "track": 2,
+                "title": "In Bloom",
+                "runtime": "4:15"
+            },
+            {
+                "track": 3,
+                "title": "Come as You Are",
+                "runtime": "3:44"
+            },
+            {
+                "track": 4,
+                "title": "Breed",
+                "runtime": "3:03"
+            },
+            {
+                "track": 5,
+                "title": "Lithium",
+                "runtime": "4:15"
+            },
+            {
+                "track": 6,
+                "title": "Polly",
+                "runtime": "2:54"
+            },
+            {
+                "track": 7,
+                "title": "Territorial Pissings",
+                "runtime": "2:23"
+            },
+            {
+                "track": 8,
+                "title": "Drain You",
+                "runtime": "3:43"
+            },
+            {
+                "track": 9,
+                "title": "Lounge Act",
+                "runtime": "2:36"
+            },
+            {
+                "track": 10,
+                "title": "Stay Away",
+                "runtime": "3:31"
+            },
+            {
+                "track": 11,
+                "title": "On a Plain",
+                "runtime": "3:14"
+            },
+            {
+                "track": 12,
+                "title": "Something in the Way",
+                "runtime": "3:52"
+            },
+            {
+                "track": 13,
+                "title": "Endless, Nameless",
+                "runtime": "6:44"
+            }
+        ],
+        "totalTime": "49.15",
+        "releaseYear": 1991,
+        "producer": "DGC",
+        "recommendationScore": 8.4,
+        "recommendationDescription": "Nevermind by Nirvana captures the anthem of a generation with its visceral energy and the raw spirit of the '90s grunge movement.",
+        "albumLocation": "Albums.php?key=4"
+    },
+    {
+        "id": 5,
+        "Cover Photo": "Images\/Greenday-Dookie.png",
+        "title": "Dookie",
+        "artist": "Greenday",
+        "genre": "Punk rock, pop-punk, skate punk",
+        "songs": [
+            {
+                "track": 1,
+                "title": "Burnout",
+                "runtime": "2:09"
+            },
+            {
+                "track": 2,
+                "title": "Having A Blast",
+                "runtime": "2:46"
+            },
+            {
+                "track": 3,
+                "title": "Chump",
+                "runtime": "2:55"
+            },
+            {
+                "track": 4,
+                "title": "Longview",
+                "runtime": "3:58"
+            },
+            {
+                "track": 5,
+                "title": "Welcome To Paradise",
+                "runtime": "3:44"
+            },
+            {
+                "track": 6,
+                "title": "Pulling Teeth",
+                "runtime": "2:32"
+            },
+            {
+                "track": 7,
+                "title": "Basket Case",
+                "runtime": "3:03"
+            },
+            {
+                "track": 8,
+                "title": "She",
+                "runtime": "2:14"
+            },
+            {
+                "track": 9,
+                "title": "Sassafras Roots",
+                "runtime": "2:39"
+            },
+            {
+                "track": 10,
+                "title": "When I Come Around",
+                "runtime": "2:59"
+            },
+            {
+                "track": 11,
+                "title": "Coming Clean",
+                "runtime": "1:36"
+            },
+            {
+                "track": 12,
+                "title": "Emenius Sleepus",
+                "runtime": "1:45"
+            },
+            {
+                "track": 13,
+                "title": "In The End",
+                "runtime": "1:48"
+            },
+            {
+                "track": 14,
+                "title": "F.O.D.",
+                "runtime": "2:54"
+            },
+            {
+                "track": 15,
+                "title": "All By Myself",
+                "runtime": "1:39"
+            }
+        ],
+        "totalTime": "38.41",
+        "releaseYear": 1994,
+        "producer": "Rob Cavallo, Greenday",
+        "recommendationScore": 8.1,
+        "recommendationDescription": "Dookie by Green Day offers a blast of punk rock energy with catchy hooks that encapsulate the angst and exhilaration of youth.",
+        "albumLocation": "Albums.php?key=5"
+    },
+    {
+        "id": 6,
+        "Cover Photo": "Images\/Kanye-West-Graduation.png",
+        "title": "Graduation",
+        "artist": "Kanye West",
+        "genre": "Hip hop, pop rap, alternative rap, progressive rap",
+        "songs": [
+            {
+                "track": 1,
+                "title": "Good Morning",
+                "runtime": "3:07"
+            },
+            {
+                "track": 2,
+                "title": "Champion",
+                "runtime": "2:47"
+            },
+            {
+                "track": 3,
+                "title": "Stronger",
+                "runtime": "5:12"
+            },
+            {
+                "track": 4,
+                "title": "I Wonder",
+                "runtime": "4:03"
+            },
+            {
+                "track": 5,
+                "title": "Good Life",
+                "runtime": "3:26"
+            },
+            {
+                "track": 6,
+                "title": "Can't Tell Me Nothing",
+                "runtime": "4:31"
+            },
+            {
+                "track": 7,
+                "title": "Barry Bonds",
+                "runtime": "3:24"
+            },
+            {
+                "track": 8,
+                "title": "Drunk And Hot Girls",
+                "runtime": "5:13"
+            },
+            {
+                "track": 9,
+                "title": "Flashing Lights",
+                "runtime": "3:57"
+            },
+            {
+                "track": 10,
+                "title": "Everything I Am",
+                "runtime": "3:47"
+            },
+            {
+                "track": 11,
+                "title": "The Glory",
+                "runtime": "3:32"
+            },
+            {
+                "track": 12,
+                "title": "Homecoming",
+                "runtime": "3:24"
+            },
+            {
+                "track": 13,
+                "title": "Big Brother",
+                "runtime": "4:47"
+            },
+            {
+                "track": 14,
+                "title": "Good Night",
+                "runtime": "3:06"
+            }
+        ],
+        "totalTime": "54.16",
+        "releaseYear": 2007,
+        "producer": "Kanye West, Brian 'AllDay' Miller, DJ Toomp, Eric Hudson, Nottz, Warryn 'Baby Dubb' Campbell",
+        "recommendationScore": 9.4,
+        "recommendationDescription": "Graduation by Kanye West melds hip-hop with electronic and orchestral flourishes, showcasing Kanyes's innovative production and introspective lyricism.",
+        "albumLocation": "Albums.php?key=6"
+    }
+]

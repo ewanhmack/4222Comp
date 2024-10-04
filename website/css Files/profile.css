@@ -1,0 +1,164 @@
+:root {
+    --backgroundColour: #1A1A1A;
+    --mainColour: #45A29E;
+    --dark-text: #1A1A1A;
+    --text-color-light: #888; 
+}
+html {
+    font-size: 90%; 
+}
+/* Profile Page*/
+.userData {
+    position: relative; 
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    background-color: var(--dark-text);
+    padding: 15px;
+    border: 1px solid var(--mainColour);
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+h3 {
+    font-weight: normal;
+}
+#showPasswordBtn {
+    background: transparent;
+    border: 1px solid var(--mainColour);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.7em;
+    color: var(--mainColour);
+    padding: 6px 15px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+#showPasswordBtn:hover {
+    background-color: var(--mainColour);
+    color: var(--backgroundColour);
+}
+#logout {
+    font-size: 1em;
+    margin-top: 10px;
+    width: 500px;
+    background: transparent;
+    border: 1px solid var(--mainColour);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--mainColour);
+    padding: 6px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative; 
+}
+
+#logout:hover {
+    background-color: var(--mainColour);
+    color: var(--backgroundColour);
+}
+
+#about {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 15px; 
+    background-color: var(--backgroundColour);
+    color: var(--text-color-light); 
+}
+
+/* Dropdown Css */
+select#albumSelect {
+    margin: 10px 0; 
+    padding: 6px 15px; 
+    background: transparent;
+    border: 1px solid var(--mainColour); 
+    color: var(--mainColour); 
+}
+
+
+button#favouriteAlbumButton {
+    margin-top: 10px; 
+    padding: 6px 15px; 
+    background: transparent;
+    border: 1px solid var(--mainColour);
+    color: var(--mainColour);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+button#favouriteAlbumButton:hover {
+    background-color: var(--mainColour);
+    color: var(--backgroundColour);
+}
+
+#editDetailsForm {
+    background-color: var(--backgroundColour);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    max-width: 500px; 
+    margin: auto; 
+}
+
+#editDetailsForm label {
+    color: var(--text-color-light);
+    margin-top: 10px;
+    width: 100%; 
+    text-align: center; 
+}
+
+#editDetailsForm input[type="text"] {
+    width: 100%; 
+    padding: 8px;
+    margin-top: 5px;
+    background-color: var(--dark-text);
+    border: 1px solid var(--mainColour);
+    border-radius: 2px;
+    color: var(--text-color-light);
+    box-sizing: border-box;
+}
+
+#editDetailsForm button {
+    font-size: 1em;
+    margin-top: 20px; 
+    width: 100%; 
+    padding: 6px 15px;
+    background-color: var(--mainColour);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--backgroundColour);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+#editDetailsForm button:hover {
+    background-color: var(--mainColour);
+    color: var(--backgroundColour);
+}
+
+button#editDetails {
+    font-size: 1em;
+    margin-top: 10px;
+    width: 500px;
+    background: transparent;
+    border: 1px solid var(--mainColour);
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: var(--mainColour);
+    padding: 6px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+}
+
+button#editDetails:hover {
+    background-color: var(--mainColour);
+    color: var(--backgroundColour);
+}
+
